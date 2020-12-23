@@ -28,9 +28,9 @@ public:
   char x;
 };
 
-static const lbool l_False = lbool::of_int(-1);
-static const lbool l_Undef = lbool::of_int(0);
-static const lbool l_True = lbool::of_int(1);
+//static const lbool l_False = lbool::of_int(-1);
+//static const lbool l_Undef = lbool::of_int(0);
+//static const lbool l_True = lbool::of_int(1);
 
 // Atomic predicate values are mapped onto [0, UINT64_MAX-1]
 // However, atoms can range from [0, UINT64_MAX].
